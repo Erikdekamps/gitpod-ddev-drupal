@@ -12,7 +12,20 @@
         {
             "type": "composer",
             "url": "https://packages.drupal.org/8"
+        },
+        {
+        "type": "package",
+        "package": {
+          "name": "Storybook",
+          "version": "dev",
+          "type": "drupal-custom-theme",
+          "source": {
+            "type": "git",
+            "url": "https://github.com/Erikdekamps/gitpod-ddev-storybook",
+            "reference": "main"
+          }
         }
+      }
     ],
     "require": {
         "composer/installers": "^2.0",
