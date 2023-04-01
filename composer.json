@@ -14,18 +14,18 @@
             "url": "https://packages.drupal.org/8"
         },
         {
-        "type": "package",
-        "package": {
-          "name": "drupal/storybook",
-          "version": "dev",
-          "type": "drupal-custom-theme",
-          "source": {
-            "type": "git",
-            "url": "https://github.com/Erikdekamps/gitpod-ddev-storybook",
-            "reference": "main"
-          }
+            "type":"package",
+            "package": {
+              "name": "erikdekamps/gitpod-ddev-storybook",
+              "version":"0.0.1",
+              "type": "drupal-custom-theme",
+              "source": {
+                  "url": "https://github.com/erikdekamps/gitpod-ddev-storybook.git",
+                  "type": "git",
+                  "reference":"main"
+                }
+            }
         }
-      }
     ],
     "require": {
         "composer/installers": "^2.0",
@@ -39,7 +39,8 @@
         "drupal/gin_lb": "^1.0@RC",
         "drupal/gin_toolbar": "^1.0@rc",
         "drupal/layout_paragraphs": "^2.0",
-        "drush/drush": "^11.5"
+        "drush/drush": "^11.5",
+        "erikdekamps/gitpod-ddev-storybook": "^0.0.1"
     },
     "conflict": {
         "drupal/drupal": "*"
