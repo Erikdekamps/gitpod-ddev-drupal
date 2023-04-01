@@ -16,7 +16,7 @@
         {
         "type": "package",
         "package": {
-          "name": "Storybook",
+          "name": "drupal/storybook",
           "version": "dev",
           "type": "drupal-custom-theme",
           "source": {
